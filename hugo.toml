@@ -1,4 +1,4 @@
-baseURL = "https://blog.knychalski.me"  
+baseURL = "https://blog.knychalski.me/"  
 title = "xkjh Blog"  
 theme = "LoveIt"
 languageCode = "en"                 
