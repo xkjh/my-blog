@@ -1,7 +1,7 @@
-baseURL = "https://knychalski.me"  # Tu wpiszesz swoją domenę z Cloudflare
-title = "xkjh Blog"  # Tytuł Twojej strony
+baseURL = "https://blog.knychalski.me"  
+title = "xkjh Blog"  
 theme = "LoveIt"
-languageCode = "en"                 # Język strony
+languageCode = "en"                 
 
 [menu]
   [[menu.main]]
@@ -17,16 +17,14 @@ languageCode = "en"                 # Język strony
 
 [params]
   version = "0.2.X"
-  # Tutaj motyw automatycznie dopasuje tryb ciemny/jasny do preferencji systemowych czytelnika
   defaultTheme = "auto"
   
   [params.header]
     desktopMode = "fixed"
     mobileMode = "auto"
     [params.header.title]
-      name = "Security Journey"     # Nazwa widoczna w lewym górnym rogu
-      pre = "<i class='fas fa-shield-alt fa-fw'></i>" # Ikona tarczy obok nazwy
-
+      name = "xkjh blog"     
+      pre = "<i class='fas fa-shield-alt fa-fw'></i>" 
   [params.footer]
     enable = true
     copyright = true
