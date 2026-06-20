@@ -1,5 +1,5 @@
 baseURL = "https://blog.knychalski.me/"  
-title = "xkjh Blog"  
+title = "xkjh - Blog"
 theme = "LoveIt"
 languageCode = "en"                 
 
@@ -19,13 +19,46 @@ languageCode = "en"
   version = "0.2.X"
   defaultTheme = "auto"
   
+  [params.app]
+    title = "xkjh blog" 
+
   [params.header]
     desktopMode = "fixed"
     mobileMode = "auto"
     [params.header.title]
-      name = "xkjh blog"     
-      pre = "<i class='fas fa-shield-alt fa-fw'></i>" 
+      name = "xkjh - Blog"     
+      pre = "<img src='/images/cyber-security.png' style='height:28px; width:28px; vertical-align:middle; margin-right:8px;' />"
   [params.footer]
     enable = true
     copyright = true
     author = true
+    hugo = true
+    since = 2026
+    custom = '<a href="https://www.flaticon.com/free-icons/cyber-security" title="cyber security icons">Flaticon used on a website</a>'
+  
+  [params.author]
+    name = "Knychalski Jakub"
+    email = ""
+    link = "https://linkedin.com/in/jakub-knychalski-6126b133b"
+  
+  [params.home]
+
+    [params.home.profile]
+    enable = true
+    subtitle = "Cybersecurity / IT blog "
+    social = true
+
+  [params.social]
+    Linkedin = "https://linkedin.com/in/jakub-knychalski-6126b133b"
+    TryHackMe = "https://tryhackme.com/p/xkjh"
+
+  [params.page.share]
+    enable = false
+
+  [params.security]
+    contentSecurityPolicy = "default-src 'self'; script-src 'self' 'unsafe-inline' https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com;"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
